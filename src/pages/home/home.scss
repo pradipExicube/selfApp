@@ -1,3 +1,50 @@
 page-home {
+    .login-content {
+        background: #fff  no-repeat center center !important;
+        .loginformItem{
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+            margin-bottom: 10px;
+            ion-label{
+                font-size: 13px;
+                color: color($colors, buttonColor) !important;
 
+            }
+        }
+        .customHeadingDiv{
+            text-align:center;
+            margin-top: 40%;
+        }
+        .customHeading{
+            font-size:28px;
+            color: color($colors, baseTextColor);
+        }
+         .signinsms{
+            text-align:center;
+            text-decoration: underline;
+            color: color($colors, subTextColor);
+         }
+         .customSigninDiv{
+            text-align:center; 
+            padding-left:40px;
+            padding-right: 40px;
+            height:60px
+         }
+         .customButton{
+            background-color: color($colors, buttonColor) !important;
+            color:color($colors,buttonTextcolor) !important;
+            height: 60px;
+            font-size: 16px;
+            font-weight: bold;
+         }
+         .customHTag{
+            font-size:12px;
+            text-align:center;
+            color: color($colors, subTextColor);
+         }
+         .custonSpanTag{
+            text-decoration:underline;
+            color: color($colors, subTextColor);
+         }
+      }
 }
