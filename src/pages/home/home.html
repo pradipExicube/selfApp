@@ -7,28 +7,39 @@
 </ion-header> -->
 <!-- <div class="spacer" style="height:300px; background: color #000000;" id="page-spacer1"></div> -->
 <ion-content class="login-content" padding>
-  <div class="customHeadingDiv">
-    <h4   class="customHeading">Sign in with Mobile<br/> number</h4>
-  </div>
+    <ion-icon name="close" class="closeicon"></ion-icon>
+    <ion-grid no-padding>
+        <div class="spacer" style="height:30%;" id="page-spacer1"></div>
+        <ion-row wrap>
+            <div class="customHeadingDiv">
+                <h4 class="customHeading">Sign in with Mobile<br/> number</h4>
+              </div>
+        </ion-row>
 
-  <div>
-      <ion-item class="loginformItem">
-          <ion-label floating>YOUR PHONE</ion-label>
-          <ion-input></ion-input>
-      </ion-item>
-      <ion-item  class="loginformItem">
-          <ion-label floating>YOUR PHONE</ion-label>
-          <ion-input></ion-input>
-      </ion-item>
-      <div class="spacer" style="height:15px;" id="page-spacer1"></div> 
-      <p class="signinsms" >sign in with sms</p>
-  </div>
-  <div class="spacer" style="height:50px;" id="page-spacer1"></div> 
-  <div class="customSigninDiv">
-      <button ion-button round full class="customButton">SIGN IN</button>
-  </div>
+        <ion-row wrap> 
 
-  <div class="spacer" style="height:50px;" id="page-spacer1"></div> 
-  <h6 class="customHTag">Don't have an account?<span class="custonSpanTag">Sign Up</span></h6>
+            <ion-item class="loginformItem">
+                <ion-label floating>YOUR PHONE</ion-label>
+                <ion-input></ion-input>
+            </ion-item>
 
+            <ion-item class="loginformItem">
+                <ion-label floating>YOUR PASSWORD</ion-label>
+                <ion-input></ion-input>
+            </ion-item>
+            
+            <ion-item no-lines>
+                <div class="spacer" style="height:10px;" id="page-spacer1"></div> 
+                <p class="signinsms" >sign in with sms</p>
+            </ion-item>
+
+        </ion-row>
+
+        <div class="spacer" style="height:100px;" id="page-spacer1"></div> 
+        <button ion-button round full class="customButton">SIGN IN</button>
+    </ion-grid>
 </ion-content>
+
+<ion-footer no-border class="login-footer">
+    <h6 class="customHTag">Don't have an account?<span class="custonSpanTag">Sign Up</span></h6>  
+</ion-footer>
