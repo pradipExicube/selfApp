@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header> -->
 <!-- <div class="spacer" style="height:300px; background: color #000000;" id="page-spacer1"></div> -->
-<ion-content class="login-content" padding>
+<!-- <ion-content class="login-content" padding>
     <ion-icon name="close" class="closeicon"></ion-icon>
     <ion-grid no-padding>
         <div class="spacer" style="height:30%;" id="page-spacer1"></div>
@@ -42,4 +42,55 @@
 
 <ion-footer no-border class="login-footer">
     <h6 class="customHTag">Don't have an account?<span class="custonSpanTag">Sign Up</span></h6>  
-</ion-footer>
+</ion-footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ion-content class="homeContent" padding>
+    <ion-grid no-padding>
+        <ion-row>
+            <ion-icon name="close" class="closeicon" (click)="crossFunction()"></ion-icon>
+        </ion-row>
+        <ion-row >
+            <ion-item no-lines wrap text-wrap class="headingItem">
+                Sign in with Mobile Number
+            </ion-item>
+        </ion-row>
+         <ion-row>
+            <ion-item class="loginformItem">
+                <ion-label floating>YOUR PHONE</ion-label>
+                <ion-input></ion-input>
+            </ion-item>
+        </ion-row>
+        <ion-row>
+                <ion-item class="loginformItem">
+                    <ion-label floating>PASSWORD</ion-label>
+                    <ion-input></ion-input>
+                </ion-item>
+            </ion-row>
+        <ion-item no-lines><p class="signinsms" style="align-self:center" >sign in with sms</p></ion-item>
+
+        <ion-row style="width:72%; align-self: center;">
+            <ion-item no-lines> 
+                <button ion-button round full class="customButton">SIGN IN</button>
+            </ion-item>
+        </ion-row>
+
+        <ion-row style="width:66%;align-self: center; margin-top:20%">
+                <h6 class="customHTag">Don't have an account?<span class="custonSpanTag">Sign Up</span></h6>  
+        </ion-row>
+
+    </ion-grid>
+    
+</ion-content>

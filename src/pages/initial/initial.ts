@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the InitialPage page.
@@ -20,6 +21,14 @@ export class InitialPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad InitialPage');
+  }
+
+  public signinFunction(){
+    this.navCtrl.push(HomePage);
+  }
+
+  public signupFunction(){
+    this.navCtrl.push(HomePage);
   }
 
 }

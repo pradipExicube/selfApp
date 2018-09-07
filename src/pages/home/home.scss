@@ -1,57 +1,126 @@
 page-home {
-    .login-content {
+    // .login-content {
+    //     background: #fff  no-repeat center center !important;
+    //     .closeicon{
+    //         font-size: 1.5em;
+    //         position: absolute;
+    //         color: color($colors, textcolor,hint);
+    //     }
+    //     ion-grid {
+    //         height: 100%;
+    //         justify-content: center;
+    //         align-items: center
+    //       }
+    //     //heading
+    //     .customHeadingDiv{
+    //         text-align:center;
+    //         // margin-top: 40%;
+    //         .customHeading{
+    //             font-size:25px;
+    //             opacity: 0.8;
+    //             color: color($colors, textcolor,hint);
+    //         }
+    //     }
+
+    //     //login from Items
+    //     .loginformItem{
+    //         padding-left: 13% !important;
+    //         padding-right: 13% !important;
+    //         margin-bottom: 10px;
+    //         ion-label{
+    //             font-size: 12px;
+    //             color: color($colors, buttoncolor,contrast) !important;
+
+    //         }
+    //     }
+    //     //Sign in with SMS
+    //      .signinsms{
+    //         text-align:center;
+    //         text-decoration: underline;
+    //         color: color($colors, textcolor,contrast);
+    //         font-size: 13px;
+    //      }
+
+    //      .customButton{
+    //         background-color: color($colors, buttoncolor, contrast);
+    //         color:color($colors, textcolor, base);
+    //         height: 11%;
+    //         font-size: 15px;
+    //         font-weight: bold;
+    //         width: 68%
+    //      }
+    //   }
+
+    //   .login-footer{
+    //     .customHTag{
+    //         font-size:12px;
+    //         text-align:center;
+    //         color: color($colors, textcolor,contrast);
+    //         padding-bottom:5%;
+    //         .custonSpanTag{
+    //             text-decoration:underline;
+    //             color: color($colors, textcolor,contrast);
+    //          }
+    //      }
+    //   }
+
+
+
+
+
+
+
+    .homeContent{
         background: #fff  no-repeat center center !important;
-        .closeicon{
-            font-size: 3em;
-            position: absolute;
-            color: color($colors, textcolor,hint);
-        }
-        ion-grid {
-            height: 100%;
-            justify-content: center;
-            align-items: center
-          }
-        //heading
-        .customHeadingDiv{
-            text-align:center;
-            // margin-top: 40%;
-            .customHeading{
-                font-size:25px;
-                opacity: 0.8;
+        ion-grid{
+            .closeicon{
+                font-size: 1.5em;
+                position: absolute;
                 color: color($colors, textcolor,hint);
             }
-        }
 
-        //login from Items
-        .loginformItem{
-            padding-left: 13% !important;
-            padding-right: 13% !important;
-            margin-bottom: 10px;
-            ion-label{
-                font-size: 12px;
-                color: color($colors, buttoncolor,contrast) !important;
-
+            .headingItem{
+                font-size: 24px;
+                text-align: center;
+                color: color($colors, textcolor,dark);
+                font-weight: bold;
+                font-family:Arial, Helvetica, sans-serif;
+                margin-top:35%; 
+                opacity: 0.6;
             }
-        }
-        //Sign in with SMS
-         .signinsms{
-            text-align:center;
-            text-decoration: underline;
-            color: color($colors, textcolor,contrast);
-            font-size: 13px;
-         }
+
+
+            .loginformItem{
+                padding-left: 13% !important;
+                padding-right: 13% !important;
+                ion-label{
+                    font-size: 12px;
+                    color: color($colors, buttoncolor,contrast) !important;
+
+                }
+            }
+
+
+
+            //Sign in with SMS
+            .signinsms{
+                text-align:center;
+                text-decoration: underline;
+                color: color($colors, textcolor,contrast);
+                font-size: 12px;
+            }
 
          .customButton{
             background-color: color($colors, buttoncolor, contrast);
             color:color($colors, textcolor, base);
-            height: 11%;
-            font-size: 15px;
+            font-size: 13px;
             font-weight: bold;
-            width: 68%
+            opacity: 0.8;
+            height: 49px;
+            margin-top:20%;
          }
-      }
+      
 
-      .login-footer{
         .customHTag{
             font-size:12px;
             text-align:center;
@@ -62,5 +131,11 @@ page-home {
                 color: color($colors, textcolor,contrast);
              }
          }
-      }
+
+
+
+        }
+
+
+    }
 }

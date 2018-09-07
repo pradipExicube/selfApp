@@ -44,12 +44,15 @@ $colors: (
 
   buttoncolor: (
     base:#488aff,
-    contrast:#7cbcff
+    contrast:#7cbcff,
+    light:#ffffff
   ),
   textcolor:(
     base: #ffffff,
     hint:rgb(101, 128, 158),
-    contrast: rgb(187, 189, 190)
+    contrast: rgb(187, 189, 190),
+    primary:#488aff,
+    dark:#000000
   )
 
 );

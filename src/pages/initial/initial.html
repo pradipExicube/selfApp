@@ -1,18 +1,14 @@
-<!--
-  Generated template for the InitialPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<!-- <ion-header>
-
-  <ion-navbar>
-    <ion-title>initial</ion-title>
-  </ion-navbar>
-
-</ion-header> -->
-
-
 <ion-content class="initial-content" padding>
-    <ion-img class="iconimage" width="100%" height="100%" src="assets/imgs/manicon.png"></ion-img>
+
+    <ion-grid>
+        <img class="iconimage"  width="70%" height="28%" src="assets/imgs/manicon.png">
+        <ion-item no-lines wrap text-wrap class="headingItem">
+            Bank Account & Credit and Debit Cards transactions Made Easy
+        </ion-item>
+            <div class="spacer" style="height:20px;" id="page-spacer1"></div>
+            <button ion-button round full class="customButtonSignIn" (click)="signinFunction()">SIGN IN</button>
+            <div class="spacer" style="height:15px;" id="page-spacer1"></div> 
+            <button ion-button round outline  color="buttoncolor"  class="customButtonSignUp" (click)="signupFunction()">SIGN IN</button>
+    </ion-grid>
+
 </ion-content>

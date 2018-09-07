@@ -1,9 +1,38 @@
 page-initial {
     .initial-content{
         background: #fff no-repeat center center !important;
-
+        ion-grid {
+            height: 100%;
+            justify-content: center;
+            align-items: center
+          }
         .iconimage{
-            background: transparent
+            background: transparent;
+            //align-items: center;
         }
+        .headingItem{
+            font-size: 14px;
+            text-align: center;
+            color: color($colors, textcolor,contrast);
+            line-height: 20px;
+            opacity: 0.8;
+        }
+        .customButtonSignIn{
+            background-color: color($colors, buttoncolor, contrast);
+            color:color($colors, textcolor, base);
+            height: 9%;
+            font-size: 11px;
+            font-weight: bold;
+            width: 72%;
+            opacity: 0.8;
+         }
+         .customButtonSignUp{
+            color:color($colors, textcolor, primary);
+            height: 9%;
+            font-size: 11px;
+            font-weight: bold;
+            width: 72%;
+            opacity: 0.8;
+         }
     }
 }
