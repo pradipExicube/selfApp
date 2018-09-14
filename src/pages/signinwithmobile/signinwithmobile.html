@@ -9,22 +9,22 @@
             </ion-item>
         </ion-row>
          <ion-row>
-            <ion-item class="loginformItem">
+            <ion-item class="loginformItem" [ngClass]="errorMobile">
                 <ion-label floating>YOUR PHONE</ion-label>
-                <ion-input></ion-input>
+                <ion-input type="number"[(ngModel)]="mobile"></ion-input>
             </ion-item>
         </ion-row>
         <ion-row>
-                <ion-item class="loginformItem">
+                <ion-item class="loginformItem" [ngClass]="errorPassword">
                     <ion-label floating>PASSWORD</ion-label>
-                    <ion-input></ion-input>
+                    <ion-input type="password" [(ngModel)]="password" ></ion-input>
                 </ion-item>
             </ion-row>
         <ion-item no-lines><p class="signinsms" style="align-self:center" (click)="signinwithSMS()">sign in with sms</p></ion-item>
 
         <ion-row style="width:72%; align-self: center;">
             <ion-item no-lines> 
-                <button ion-button round full class="customButton">SIGN IN</button>
+                <button ion-button round full class="animated fadeIn slow customButton" (click)="signinwithMobile()">SIGN IN</button>
             </ion-item>
         </ion-row>
 

@@ -15,7 +15,7 @@ import { SigninwithmobilePage } from '../signinwithmobile/signinwithmobile';
   templateUrl: 'initial.html',
 })
 export class InitialPage {
-
+  name="initial-content";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

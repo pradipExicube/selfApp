@@ -5,11 +5,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 // import { SigninwithmobilePage } from '../pages/signinwithmobile/signinwithmobile';
 import { InitialPage } from '../pages/initial/initial';
+import { SigninwithsmsPage } from '../pages/signinwithsms/signinwithsms';
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = InitialPage;
+  rootPage:any = SigninwithsmsPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
