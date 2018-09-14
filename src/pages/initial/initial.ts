@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
+import { SigninwithmobilePage } from '../signinwithmobile/signinwithmobile';
 
 /**
  * Generated class for the InitialPage page.
@@ -24,11 +24,11 @@ export class InitialPage {
   }
 
   public signinFunction(){
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(SigninwithmobilePage);
   }
 
   public signupFunction(){
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(SigninwithmobilePage);
   }
 
 }

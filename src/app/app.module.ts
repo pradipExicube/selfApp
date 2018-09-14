@@ -5,23 +5,28 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+// import { HomePage } from '../pages/home/home';
+import { SigninwithmobilePage } from '../pages/signinwithmobile/signinwithmobile';
 import { InitialPageModule } from '../pages/initial/initial.module';
+
+//page module
+import {SigninwithsmsPageModule} from '../pages/signinwithsms/signinwithsms.module';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    SigninwithmobilePage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    InitialPageModule
+    InitialPageModule,
+    SigninwithsmsPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    SigninwithmobilePage
   ],
   providers: [
     StatusBar,
